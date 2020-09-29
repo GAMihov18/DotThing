@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Dots</title>
+</head>
+<body>
+  <h1>Dots</h1>
+  
+  <form onsubmit="makeDots(event)">
+    <div class="inputX">
+      <P>Input X coordinates(0-600)</P>
+      <input type="text" name="dotCoordinateX" id="dcx">
+    </div>
+    <div class="inputY">
+      <p>Input Y coordinates(0-600)</p>
+      <input type="text" name="dotCoordinateY" id="dcy">
+    </div>
+    <input type="submit" value="Make dot">
+ </form>
+  <div id="coordinateTable">
+  </div>
+
+  <!--Scripts-->
+  <script src="app.js"></script>
+</body>
+</html>
